@@ -37,7 +37,7 @@
   }
 }
 
-.nav-link, .nav-link.active {
+.nav-link {
   color: #808080;
 }
 
@@ -48,33 +48,6 @@
 .nav-link:hover {
   color: white;
 }
-.nav-link:active {
-  color: blue;
-}
-
-/* New styles for Navbar active class */
-/* Basic styles for nav links */
-nav a {
-  display: flex;
-  align-items: center;
-  padding-left: 30px;
-  padding-right: 30px;
-  height: 100%;
-  text-decoration: none;
-}
-
-/* Specific styles for non-active links */
-.link {
-  color: white;
-}
-
-/* Specific styles for active links */
-.link-active {
-  color: black;
-  background: orange;
-}
-
-.content {
-  margin-top: 50px;
-  text-align: center;
+.nav-link.active {
+  color: rgb(194, 244, 45) !important;
 }
